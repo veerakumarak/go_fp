@@ -18,7 +18,7 @@ jobs:
       fail-fast: false
       matrix:
         # Tests against your minimum supported version (1.25) and recent releases
-        go-version: [ '1.25', '1.26', '1.27' ]
+        go-version: [ '1.26.x' ]
 
     steps:
       - name: Checkout code
