@@ -70,7 +70,7 @@ func TestFrom(f *testing.T) {
 	original := New("custom failure")
 	wrappedAgain := From(original)
 	if wrappedAgain != original {
-		f.Errorf("expected FromError on an existing Failure to return it directly")
+		f.Errorf("expected From on an existing Failure to return it directly")
 	}
 }
 
